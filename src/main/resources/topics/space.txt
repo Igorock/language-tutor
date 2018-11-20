@@ -28,10 +28,6 @@ Since that time, most US space exploration efforts have been led by NASA, includ
 NASA science is focused on better understanding Earth through the Earth Observing System, advancing heliophysics through the efforts of the Science Mission Directorate's Heliophysics Research Program, exploring bodies throughout the Solar System with advanced robotic spacecraft missions such as New Horizons, and researching astrophysics topics, such as the Big Bang, through the Great Observatories and associated programs. NASA shares data with various national and international organizations such as from the Greenhouse Gases Observing Satellite.
 
 
-Staff and leadership
-NASA Advisory Council
-Space flight programs
-Manned programs
 4.1.1	X-15 rocket plane (1959–1968)
 4.1.2	Project Mercury (1958–1963)
 4.1.3	Project Gemini (1961–1966)
@@ -42,32 +38,22 @@ Manned programs
 4.1.8	International Space Station (1993–present)
 4.1.8.1	Commercial programs (2006–present)
 4.1.9	Beyond Low Earth Orbit program (2010–2017)
-Unmanned programs
 Activities 2010-2017
 Recent and planned activities
-Humans to Mars
-
-Climate study
 
 
-Environmental impact
 
 
-Planned spacecraft
+
 Examples of missions by target
-See also
 
 
-External links
-General
-Further reading
 
 William H. Pickering, (center) JPL Director, President John F. Kennedy, (right). NASA Administrator James E. Webb (background) discussing the Mariner program, with a model presented.
 From 1946, the National Advisory Committee for Aeronautics (NACA) had been experimenting with rocket planes such as the supersonic Bell X-1. In the early 1950s, there was challenge to launch an artificial satellite for the International Geophysical Year (1957–58). An effort for this was the American Project Vanguard. After the Soviet launch of the world's first artificial satellite (Sputnik 1) on October 4, 1957, the attention of the United States turned toward its own fledgling space efforts. The US Congress, alarmed by the perceived threat to national security and technological leadership (known as the "Sputnik crisis"), urged immediate and swift action; President Dwight D. Eisenhower and his advisers counseled more deliberate measures. On January 12, 1958, NACA organized a "Special Committee on Space Technology", headed by Guyford Stever. On January 14, 1958, NACA Director Hugh Dryden published "A National Research Program for Space Technology" stating:
 It is of great urgency and importance to our country both from consideration of our prestige as a nation as well as military necessity that this challenge [Sputnik] be met by an energetic program of research and development for the conquest of space... It is accordingly proposed that the scientific research be the responsibility of a national civilian agency... NACA is capable, by rapid extension and expansion of its effort, of providing leadership in space technology.
 While this new federal agency would conduct all non-military space activity, the Advanced Research Projects Agency (ARPA) was created in February 1958 to develop space technology for military application.
 On July 29, 1958, Eisenhower signed the National Aeronautics and Space Act, establishing NASA. When it began operations on October 1, 1958, NASA absorbed the 43-year-old NACA intact; its 8,000 employees, an annual budget of US$100 million, three major research laboratories (Langley Aeronautical Laboratory, Ames Aeronautical Laboratory, and Lewis Flight Propulsion Laboratory) and two small test facilities. A NASA seal was approved by President Eisenhower in 1959. Elements of the Army Ballistic Missile Agency and the United States Naval Research Laboratory were incorporated into NASA. A significant contributor to NASA's entry into the Space Race with the Soviet Union was the technology from the German rocket program led by Wernher von Braun, who was now working for the Army Ballistic Missile Agency (ABMA), which in turn incorporated the technology of American scientist Robert Goddard's earlier works. Earlier research efforts within the US Air Force and many of ARPA's early space programs were also transferred to NASA. In December 1958, NASA gained control of the Jet Propulsion Laboratory, a contractor facility operated by the California Institute of Technology.
-Staff and leadership
 Jim Bridenstine speaks to three astronauts aboard the International Space Station shortly after being sworn in as NASA's thirteenth administrator
 The agency's leader, NASA's administrator, is nominated by the President of the United States subject to approval of the US Senate, and reports to him or her and serves as senior space science advisor. Though space exploration is ostensibly non-partisan, the appointee usually is associated with the President's political party (Democratic or Republican), and a new administrator is usually chosen when the Presidency changes parties. The only exceptions to this have been: James C. Fletcher, appointed by Republican Richard Nixon but stayed through May 1977 into the term of Democrat Jimmy Carter; Daniel Goldin, appointed by Republican George H. W. Bush and stayed through the administration of Democrat Bill Clinton; and Robert M. Lightfoot, Jr., associate administrator under Democrat Barack Obama kept on as acting administrator by Republican Donald Trump. Though the agency is independent, the survival or discontinuation of projects can depend directly on the will of the President.
 The first administrator was Dr. T. Keith Glennan appointed by Republican President Dwight D. Eisenhower. During his term he brought together the disparate projects in American space development research.
@@ -75,9 +61,7 @@ The second administrator, James E. Webb (1961–1968), appointed by President Jo
 James Fletcher was responsible for early planning of the Space Shuttle program during his first term as administrator under President Nixon. He was appointed for a second term as administrator from May 1986 through April 1989 by President Ronald Reagan to help the agency recover from the Space Shuttle Challenger disaster.
 Former astronaut Charles Bolden served as NASA's twelfth administrator from July 2009 to January 20, 2017. Administrator Bolden is one of three former astronauts who became NASA administrators, along with Richard H. Truly (served 1989–1992) and Frederick D. Gregory (acting, 2005).
 The agency's administration is located at NASA Headquarters in Washington, DC and provides overall guidance and direction. Except under exceptional circumstances, NASA civil service employees are required to be citizens of the United States.
-NASA Advisory Council
 In response to the Apollo 1 accident which killed three astronauts in 1967, Congress directed NASA to form an Aerospace Safety Advisory Panel (ASAP) to advise the NASA Administrator on safety issues and hazards in NASA's aerospace programs. In the aftermath of the Shuttle Columbia accident, Congress required that the ASAP submit an annual report to the NASA Administrator and to Congress. By 1971, NASA had also established the Space Program Advisory Council and the Research and Technology Advisory Council to provide the administrator with advisory committee support. In 1977, the latter two were combined to form the NASA Advisory Council (NAC).
-Space flight programs
 At launch control for the May 28, 1964, Saturn I SA-6 launch. Wernher von Braun is at center.
 NASA has conducted many manned and unmanned spaceflight programs throughout its history. Unmanned programs launched the first American artificial satellites into Earth orbit for scientific and communications purposes, and sent scientific probes to explore the planets of the solar system, starting with Venus and Mars, and including "grand tours" of the outer planets. Manned programs sent the first Americans into low Earth orbit (LEO), won the Space Race with the Soviet Union by landing twelve men on the Moon from 1969 to 1972 in the Apollo program, developed a semi-reusable LEO Space Shuttle, and developed LEO space station capability by itself and with the cooperation of several other nations including post-Soviet Russia. Some missions include both manned and unmanned aspects, such as the Galileo probe, which was deployed by astronauts in Earth orbit before being sent unmanned to Jupiter.
 
@@ -163,7 +147,6 @@ Since 2011, NASA's strategic goals have been
 Extend and sustain human activities across the solar system
 Expand scientific understanding of the Earth and the universe
 Create innovative new space technologies
-Advance aeronautics research
 Enable program and institutional capabilities to conduct NASA's aeronautics and space activities
 Share NASA with the public, educators, and students to provide opportunities to participate
 In August 2011, NASA accepted the donation of two space telescopes from the National Reconnaissance Office. Despite being stored unused, the instruments are superior to the Hubble Space Telescope.
@@ -182,19 +165,14 @@ There was a new executive administration in the United States, which directed NA
 InSight, planned for launch and landing on Mars in 2018
 New Horizons, Kuiper belt object flyby EOY 2018, January 2019 planned
 Osiris-Rex, en route for asteroid sample return in the 2020s
-Mars 2020 rover
 
 Misc. Discovery Missions
 James Webb Space Telescope
-Parker Solar Probe
 Transiting Exoplanet Survey Satellite (TESS), launched in April 2018
-Humans to Mars
 Langley's Mars Ice Dome design from 2016 for a Mars base
 Orion at ISS artwork
 The NASA Authorization Act of 2017 which included $19.5 billion in funding for that fiscal year, also directed NASA to get humans near or on the surface of Mars by the early 2030s.
 Current NASA Mars assets:
-Mars Odyssey
-Mars Reconnaissance Orbiter
 
 Opportunity (rover) (surface)
 Curiosity (rover) (surface)
@@ -202,9 +180,7 @@ Curiosity (rover) (surface)
 
 
 Human spaceflight assets current and planned:
-International Space Station
 
-Space Launch System
 Mars mission design from the SEI ("90 day study") (example of Mars mission design)
 
 NASA developed this hard-suit in the 1980s at the Ames Research Center
@@ -300,10 +276,8 @@ MAVEN	2013			Orbiter
 year	Mercury	Venus	Mars	Jupiter	Saturn	Uranus	Neptune	Pluto
 Examples of missions for the Sun
 Interface Region Imaging Spectrograph
-Solar Dynamics Observatory
 
 
-Parker Solar Probe
 
 Astronomy Picture of the Day
 Department of Defense Manned Space Flight Support Office
@@ -314,15 +288,10 @@ List of United States rockets
 NASA Advanced Space Transportation Program
 NASA awards and decorations
 
-NASA Research Park
 
 
-Small Explorer program
 Space policy of the Barack Obama administration
 
-French space program
-Russian space program
-Chinese space program
 
 NASA is an independent agency that is not a part of any executive department but reports directly to the President.
 The descend stage of the LM stayed on the Moon after landing while the ascend stage brought the two astronauts back to the CSM and then fell back to the Moon.
@@ -495,15 +464,12 @@ Michael K. Ewert (2006). "Johnson Space Center's Role in a Sustainable Future" (
 "NASA - NASA's New Building Awarded the U.S. Green Building Council LEED Gold Rating". nasa.gov.
 
 
-Official NASA site
 NASA Engineering and Safety Center
 NASA Photos and NASA Images
-NASA Launch Schedule
 NASA Television and NASA podcasts
 NASA on Google+
 NASA's channel on YouTube
 @NASA on Twitter Edit this at Wikidata
-NASA on Facebook
 NASA in the Federal Register
 NASA Watch, an agency watchdog site
 The Gateway to Astronaut Photography of Earth
@@ -516,7 +482,6 @@ Works by NASA at Project Gutenberg
 Works by or about NASA at Internet Archive
 
 How NASA works on howstuffworks.com
-NASA History Division
 Monthly look at Exploration events
 NODIS: NASA Online Directives Information System
 NTRS: NASA Technical Reports Server
@@ -550,7 +515,6 @@ Kennedy Space Center LC-39
 Vehicle type	Capsule/Lander
 
 Apollo Command/Service Module
-Apollo Lunar Module
 Crew capacity	3
 Launch vehicle(s)
 
@@ -563,56 +527,24 @@ Apollo ran from 1961 to 1972, with the first manned flight in 1968. It achieved 
 Apollo set several major human spaceflight milestones. It stands alone in sending manned missions beyond low Earth orbit. Apollo 8 was the first manned spacecraft to orbit another celestial body, while the final Apollo 17 mission marked the sixth Moon landing and the ninth manned mission beyond low Earth orbit. The program returned 842 pounds (382 kg) of lunar rocks and soil to Earth, greatly contributing to the understanding of the Moon's composition and geological history. The program laid the foundation for NASA's subsequent human spaceflight capability, and funded construction of its Johnson Space Center and Kennedy Space Center. Apollo also spurred advances in many areas of technology incidental to rocketry and manned spaceflight, including avionics, telecommunications, and computers.
 
 
-Spacecraft feasibility studies
-Political pressure builds
-NASA expansion
-Manned Spacecraft Center
-Launch Operations Center
-Organization
 Choosing a mission mode
 
 Command/Service Module
-Lunar Module
-Launch vehicles
-Little Joe II
-Saturn I
-Saturn IB
-Saturn V
 
-Lunar mission profile
-Profile variations
-Development history
-Unmanned flight tests
 Preparation for manned flight
 8.2.1	Program delays
 8.2.2	Apollo 1 fire
 8.2.3	Unmanned Saturn V and LM tests
-Manned development missions
-Production lunar landings
 8.4.1	Mission cutbacks
 8.4.2	Extended missions
-Mission summary
-Samples returned
 
-Apollo Applications Program
-Recent observations
 
-Science and engineering
-Cultural impact
 Apollo 11 broadcast data restoration project
-Depictions on film
-Documentaries
-Docudramas
-See also
 
 
-Further reading
-External links
 
 The Apollo program was conceived during the Eisenhower administration in early 1960, as a follow-up to Project Mercury. While the Mercury capsule could only support one astronaut on a limited Earth orbital mission, Apollo would carry three astronauts. Possible missions included ferrying crews to a space station, circumlunar flights, and eventual manned lunar landings. The program was named after the Greek god of light, music, and the sun by NASA manager Abe Silverstein, who later said that "I was naming the spacecraft like I'd name my baby." Silverstein chose the name at home one evening, early in 1960, because he felt "Apollo riding his chariot across the Sun was appropriate to the grand scale of the proposed program."
-Spacecraft feasibility studies
 In July 1960, NASA Deputy Administrator Hugh L. Dryden announced the Apollo program to industry representatives at a series of Space Task Group conferences. Preliminary specifications were laid out for a spacecraft with a mission module cabin separate from the command module (piloting and re-entry cabin), and a propulsion and equipment module. On August 30, a feasibility study competition was announced, and on October 25, three study contracts were awarded to General Dynamics/Convair, General Electric, and the Glenn L. Martin Company. Meanwhile, NASA performed its own in-house spacecraft design studies led by Maxime Faget, to serve as a gauge to judge and monitor the three industry designs.
-Political pressure builds
 In November 1960, John F. Kennedy was elected president after a campaign that promised American superiority over the Soviet Union in the fields of space exploration and missile defense. Up to the election of 1960, Kennedy had been speaking out against the "missile gap" that he and many other senators felt had formed between the Soviets and themselves due to the inaction of President Eisenhower. Beyond military power, Kennedy used aerospace technology as a symbol of national prestige, pledging to make the US not "first but, first and, first if, but first period." Despite Kennedy's rhetoric, he did not immediately come to a decision on the status of the Apollo program once he became president. He knew little about the technical details of the space program, and was put off by the massive financial commitment required by a manned Moon landing. When Kennedy's newly appointed NASA Administrator James E. Webb requested a 30 percent budget increase for his agency, Kennedy supported an acceleration of NASA's large booster program but deferred a decision on the broader issue.
 On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first person to fly in space, reinforcing American fears about being left behind in a technological competition with the Soviet Union. At a meeting of the US House Committee on Science and Astronautics one day after Gagarin's flight, many congressmen pledged their support for a crash program aimed at ensuring that America would catch up. Kennedy was circumspect in his response to the news, refusing to make a commitment on America's response to the Soviets.
 President John F. Kennedy addresses a joint session of Congress, with Vice President Lyndon B. Johnson and House Speaker Sam Rayburn seated behind him
@@ -626,7 +558,6 @@ At the time of Kennedy's proposal, only one American had flown in space—less t
 With the clear goal of a manned landing replacing the more nebulous goals of space stations and circumlunar flights, NASA decided that, in order to make progress quickly, it would discard the feasibility study designs of Convair, GE, and Martin, and proceed with Faget's command / service module design. The mission module was determined to be only useful as an extra room, and therefore deemed unnecessary. They used Faget's design as the specification for another competition for spacecraft procurement bids in October 1961. On November 28, 1961, it was announced that North American Aviation had won the contract, although its bid was not rated as good as Martin's. Webb, Dryden and Robert Seamans chose it in preference due to North American's longer association with NASA and its predecessor.
 Landing men on the Moon by the end of 1969 required the most sudden burst of technological creativity, and the largest commitment of resources ($25 billion; $107 billion in 2016 dollars) ever made by any nation in peacetime. At its peak, the Apollo program employed 400,000 people and required the support of over 20,000 industrial firms and universities.
 On July 1, 1960, NASA established the Marshall Space Flight Center (MSFC) in Huntsville, Alabama. MSFC designed the heavy lift-class Saturn launch vehicles, which would be required for Apollo.
-Manned Spacecraft Center
 It became clear that managing the Apollo program would exceed the capabilities of Robert R. Gilruth's Space Task Group, which had been directing the nation's manned space program from NASA's Langley Research Center. So Gilruth was given authority to grow his organization into a new NASA center, the Manned Spacecraft Center (MSC). A site was chosen in Houston, Texas, on land donated by Rice University, and Administrator Webb announced the conversion on September 19, 1961. It was also clear NASA would soon outgrow its practice of controlling missions from its Cape Canaveral Air Force Station launch facilities in Florida, so a new Mission Control Center would be included in the MSC.
 File:President Kennedy speech on the space effort at Rice University, September 12, 1962.ogv
 President Kennedy speaks at Rice University, September 12, 1962 (17 min, 47 sec)
@@ -634,7 +565,6 @@ In September 1962, by which time two Project Mercury astronauts had orbited the 
 But why, some say, the Moon? Why choose this as our goal? And they may well ask, why climb the highest mountain? Why, 35 years ago, fly the Atlantic? ...
 We choose to go to the Moon. We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills; because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win ... . Full text Wikisource has information on "We choose to go to the moon"
 The MSC was completed in September 1963. It was renamed by the US Congress in honor of Lyndon Johnson soon after his death in 1973.
-Launch Operations Center
 It also became clear that Apollo would outgrow the Canaveral launch facilities in Florida. The two newest launch complexes were already being built for the Saturn I and IB rockets at the northernmost end: LC-34 and LC-37. But an even bigger facility would be needed for the mammoth rocket required for the manned lunar mission, so land acquisition was started in July 1961 for a Launch Operations Center (LOC) immediately north of Canaveral at Merritt Island. The design, development and construction of the center was conducted by Kurt H. Debus, a member of Dr. Wernher von Braun's original V-2 rocket engineering team. Debus was named the LOC's first Director. Construction began in November 1962. Upon Kennedy's death, President Johnson issued an executive order on November 29, 1963, to rename the LOC and Cape Canaveral in honor of Kennedy.
 The LOC included Launch Complex 39, a Launch Control Center, and a 130 million cubic foot (3.7 million cubic meter) Vertical Assembly Building (VAB) in which the space vehicle (launch vehicle and spacecraft) would be assembled on a Mobile Launcher Platform and then moved by a transporter to one of several launch pads. Although at least three pads were planned, only two, designated A and B, were completed in October 1965. The LOC also included an Operations and Checkout Building (OCB) to which Gemini and Apollo spacecraft were initially received prior to being mated to their launch vehicles. The Apollo spacecraft could be tested in two vacuum chambers capable of simulating atmospheric pressure at altitudes up to 250,000 feet (76 km), which is nearly a vacuum.
 
@@ -670,7 +600,6 @@ The Lunar Module (LM) was designed to descend from lunar orbit to land two astro
 
 Four Apollo rocket assemblies, drawn to scale: Little Joe II, Saturn I, Saturn IB, and Saturn V
 Before the Apollo program began, Wernher von Braun and his team of rocket engineers had started work on plans for very large launch vehicles, the Saturn series, and the even larger Nova series. In the midst of these plans, von Braun was transferred from the Army to NASA, and made Director of the Marshall Space Flight Center. The initial direct ascent plan to send the three-man Apollo Command/Service Module directly to the lunar surface, on top of a large descent rocket stage, would require a Nova-class launcher, with a lunar payload capability of over 180,000 pounds (82,000 kg). The June 11, 1962, decision to use lunar orbit rendezvous enabled the Saturn V to replace the Nova, and the MSFC proceeded to develop the Saturn rocket family for Apollo.
-Little Joe II
 Since Apollo, like Mercury, would require a launch escape system (LES) in case of a launch failure, a relatively small rocket was required for qualification flight testing of this system. A size bigger than the NAA Little Joe would be required, so the Little Joe II was built by General Dynamics/Convair. After an August 1963 qualification test flight, four LES test flights (A-001 through 004) were made at the White Sands Missile Range between May 1964 and January 1966.
 
 A Saturn IB rocket launches Apollo 7, 1968
@@ -690,7 +619,6 @@ Apollo 11 crew, who made the first manned landing: commander Neil Armstrong, CM 
 Thirty-two astronauts were assigned to fly missions in the Apollo program. Twenty-four of these left Earth's orbit and flew around the Moon between December 1968 and December 1972 (three of them twice). Half of the 24 walked on the Moon's surface, though none of them returned to it after landing once. One of the moonwalkers was a trained geologist. Of the 32, Gus Grissom, Ed White, and Roger Chaffee were killed during a ground test in preparation for the Apollo 1 mission.
 The Apollo astronauts were chosen from the Project Mercury and Gemini veterans, plus from two later astronaut groups. All missions were commanded by Gemini or Mercury veterans. Crews on all development flights (except the Earth orbit CSM development flights) through the first two landings on Apollo 11 and Apollo 12, included at least two (sometimes three) Gemini veterans. Dr. Harrison Schmitt, a geologist, was the first NASA scientist astronaut to fly in space, and landed on the Moon on the last mission, Apollo 17. Schmitt participated in the lunar geology training of all of the Apollo landing crews.
 NASA awarded all 32 of these astronauts its highest honor, the Distinguished Service Medal, given for "distinguished service, ability, or courage", and personal "contribution representing substantial progress to the NASA mission". The medals were awarded posthumously to Grissom, White, and Chaffee in 1969, then to the crews of all missions from Apollo 8 onward. The crew that flew the first Earth orbital test mission Apollo 7, Walter M. Schirra, Donn Eisele, and Walter Cunningham, were awarded the lesser NASA Exceptional Service Medal, because of discipline problems with the Flight Director's orders during their flight. The NASA Administrator in October, 2008, decided to award them the Distinguished Service Medals, by this time posthumously to Schirra and Eisele.
-Lunar mission profile
 The nominal planned lunar landing mission proceeded as follows:
 Launch The 3 Saturn V stages burn for about 11 minutes to achieve a 100-nautical-mile (190 km) circular parking orbit. The third stage burns a small portion of its fuel to achieve orbit.
 Translunar injection After one to two orbits to verify readiness of spacecraft systems, the S-IVB third stage reignites for about 6 minutes to send the spacecraft to the Moon.
@@ -714,7 +642,6 @@ The first three lunar missions (Apollo 8, Apollo 10, and Apollo 11) used a free 
 After Apollo 12 placed the second of several seismometers on the Moon, the S-IVBs on subsequent missions were deliberately crashed on the Moon instead of being sent to solar orbit, as an active seismic experiment to induce vibrations in the Moon.
 As another active seismic experiment, the jettisoned LM ascent stages on Apollo 12 and later missions were deliberately crashed on the Moon at known locations. The only exceptions to this were the Apollo 13 LM which burned up in the Earth's atmosphere, and Apollo 16, where a loss of attitude control after jettison prevented making a targeted impact.
 
-Unmanned flight tests
  Composite image of unmanned development Apollo mission launches in chronological sequence.
 Apollo unmanned development mission launches. Click on a launch image to read the main article about each mission
 Two Block I CSMs were launched from LC-34 on suborbital flights in 1966 with the Saturn IB. The first, AS-201 launched on February 26, reached an altitude of 265.7 nautical miles (492.1 km) and splashed down 4,577 nautical miles (8,477 km) downrange in the Atlantic Ocean. The second, AS-202 on August 25, reached 617.1 nautical miles (1,142.9 km) altitude and was recovered 13,900 nautical miles (25,700 km) downrange in the Pacific Ocean. These flights validated the Service Module engine and the Command Module heat shield.
@@ -728,7 +655,6 @@ In December 1966, the AS-205 mission was canceled, since the validation of the C
 The spacecraft for the AS-202 and AS-204 missions were delivered by North American Aviation to the Kennedy Space Center with long lists of equipment problems which had to be corrected before flight; these delays caused the launch of AS-202 to slip behind AS-203, and eliminated hopes the first manned mission might be ready to launch as soon as November 1966, concurrently with the last Gemini mission. Eventually the planned AS-204 flight date was pushed to February 21, 1967.
 North American Aviation was prime contractor not only for the Apollo CSM, but for the Saturn V S-II second stage as well, and delays in this stage pushed the first unmanned Saturn V flight AS-501 from late 1966 to November 1967. (The initial assembly of AS-501 had to use a dummy spacer spool in place of the stage.)
 The problems with North American were severe enough in late 1965 to cause Manned Space Flight Administrator George Mueller to appoint program director Samuel Phillips to head a "tiger team" to investigate North American's problems and identify corrections. Phillips documented his findings in a December 19 letter to NAA president Lee Atwood, with a strongly worded letter by Mueller, and also gave a presentation of the results to Mueller and Deputy Administrator Robert Seamans. Meanwhile, Grumman was also encountering problems with the Lunar Module, eliminating hopes it would be ready for manned flight in 1967, not long after the first manned CSM flights.
-Apollo 1 fire
 Charred Apollo 1 cabin interior
 Grissom, White, and Chaffee decided to name their flight Apollo 1 as a motivational focus on the first manned flight. They trained and conducted tests of their spacecraft at North American, and in the altitude chamber at the Kennedy Space Center. A "plugs-out" test was planned for January, which would simulate a launch countdown on LC-34 with the spacecraft transferring from pad-supplied to internal power. If successful, this would be followed by a more rigorous countdown simulation test closer to the February 21 launch, with both spacecraft and launch vehicle fueled.
 The plugs-out test began on the morning of January 27, 1967, and immediately was plagued with problems. First the crew noticed a strange odor in their spacesuits, which delayed the sealing of the hatch. Then, communications problems frustrated the astronauts and forced a hold in the simulated countdown. During this hold, an electrical fire began in the cabin, and spread quickly in the high pressure, 100% oxygen atmosphere. Pressure rose high enough from the fire that the cabin inner wall burst, allowing the fire to erupt onto the pad area and frustrating attempts to rescue the crew. The astronauts were asphyxiated before the hatch could be opened.
@@ -741,7 +667,6 @@ In September 1967, Mueller approved a sequence of mission types which had to be 
 The delay in the CSM caused by the fire enabled NASA to catch up on man-rating the LM and Saturn V. Apollo 4 (AS-501) was the first unmanned flight of the Saturn V, carrying a Block I CSM on November 9, 1967. The capability of the Command Module's heat shield to survive a trans-lunar reentry was demonstrated by using the Service Module engine to ram it into the atmosphere at higher than the usual Earth-orbital reentry speed.
 Apollo 5 (AS-204) was the first unmanned test flight of LM in Earth orbit, launched from pad 37 on January 22, 1968, by the Saturn IB that would have been used for Apollo 1. The LM engines were successfully test-fired and restarted, despite a computer programming error which cut short the first descent stage firing. The ascent engine was fired in abort mode, known as a "fire-in-the-hole" test, where it was lit simultaneously with jettison of the descent stage. Although Grumman wanted a second unmanned test, George Low decided the next LM flight would be manned.
 This was followed on April 4, 1968, by Apollo 6 (AS-502) which carried a CSM and a LM Test Article as ballast. The intent of this mission was to achieve trans-lunar injection, followed closely by a simulated direct-return abort, using the Service Module engine to achieve another high-speed reentry. The Saturn V experienced pogo oscillation, a problem caused by non-steady engine combustion, which damaged fuel lines in the second and third stages. Two S-II engines shut down prematurely, but the remaining engines were able to compensate. The damage to the third stage engine was more severe, preventing it from restarting for trans-lunar injection. Mission controllers were able to use the Service Module engine to essentially repeat the flight profile of Apollo 4. Based on the good performance of Apollo 6 and identification of satisfactory fixes to the Apollo 6 problems, NASA declared the Saturn V ready to fly men, cancelling a third unmanned test.
-Manned development missions
  Composite image of 6 manned Apollo development mission patches, from Apollo 1 to Apollo 11.
 Apollo manned development mission patches. Click on a patch to read the main article about that mission
 Apollo 7, launched from LC-34 on October 11, 1968, was the C mission, crewed by Schirra, Eisele and Cunningham. It was an 11-day Earth-orbital flight which tested the CSM systems.
@@ -751,7 +676,6 @@ Neil Armstrong descends the LM's ladder in preparation for the first steps on th
 The G mission was achieved on Apollo 11 in July 1969 by an all-Gemini veteran crew consisting of Neil Armstrong, Michael Collins and Buzz Aldrin. Armstrong and Aldrin performed the first landing at the Sea of Tranquility at 20:17:40 UTC on July 20, 1969. They spent a total of 21 hours, 36 minutes on the surface, and spent 2 hours, 31 minutes outside the spacecraft, walking on the surface, taking photographs, collecting material samples, and deploying automated scientific instruments, while continuously sending black-and-white television back to Earth. The astronauts returned safely on July 24.
 That's one small step for [a] man, one giant leap for mankind.
 — Neil Armstrong, just after stepping onto the Moon's surface
-Production lunar landings
  Composite image of 6 production manned Apollo lunar landing mission patches, from Apollo 12 to Apollo 17.
 Apollo production manned lunar landing mission patches. Click on a patch to read the main article about that mission
 Apollo landings on the Moon, 1969–1972
@@ -866,7 +790,6 @@ Ground facilities	1,830.3 million
 Operation of installations	2,420.6 million
 The final cost of Apollo was reported to Congress as $25.4 billion in 1973, It took up the majority of NASA's budget while it was being developed. For example, in 1966 it accounted for about 60 percent of NASA's total $5.2 billion budget. That was one of the biggest investment of the US in science, research and development, and employed thousands of American scientists. A single Saturn V launch in 1969 cost up to $375 million, compared to the National Science Foundation's fiscal year 1970 budget of $440 million.
 In 2009, NASA held a symposium on project costs which presented an estimate of the Apollo program costs in 2005 dollars as roughly $170 billion ($206 billion in 2016 dollars). This included all research and development costs; the procurement of 15 Saturn V rockets, 16 Command/Service Modules, 12 Lunar Modules, plus program support and management costs; construction expenses for facilities and their upgrading, and costs for flight operations. This was based on a Congressional Budget Office report, A Budgetary Analysis of NASA's New Vision for Space, September 2004. The Space Review estimated in 2010 the cost of Apollo from 1959 to 1973 as $20.4 billion, or $109 billion in 2010 dollars. ($120 billion in 2016 dollars)
-Apollo Applications Program
 Looking beyond the manned lunar landings, NASA investigated several post-lunar applications for Apollo hardware. The Apollo Extension Series (Apollo X,) proposed up to 30 flights to Earth orbit, using the space in the Spacecraft Lunar Module Adapter (SLA) to house a small orbital laboratory (workshop). Astronauts would continue to use the CSM as a ferry to the station. This study was followed by design of a larger orbital workshop to be built in orbit from an empty S-IVB Saturn upper stage, and grew into the Apollo Applications Program (AAP). The workshop was to be supplemented by the Apollo Telescope Mount, which could be attached to the ascent stage of the lunar module via a rack. The most ambitious plan called for using an empty S-IVB as an interplanetary spacecraft for a Venus fly-by mission.
 The S-IVB orbital workshop was the only one of these plans to make it off the drawing board. Dubbed Skylab, it was constructed complete on the ground rather than in space, and launched in 1973 using the two lower stages of a Saturn V. It was equipped with an Apollo Telescope Mount. Skylab's last crew departed the station on February 8, 1974, and the station itself re-entered the atmosphere in 1979.
 The Apollo-Soyuz Test Project also used Apollo hardware for the first joint nation space flight, paving the way for future cooperation with other nations in the Space Shuttle and International Space Station programs.
@@ -878,7 +801,6 @@ In a November 16, 2009, editorial, The New York Times opined:
 [T]here's something terribly wistful about these photographs of the Apollo landing sites. The detail is such that if Neil Armstrong were walking there now, we could make him out, make out his footsteps even, like the astronaut footpath clearly visible in the photos of the Apollo 14 site. Perhaps the wistfulness is caused by the sense of simple grandeur in those Apollo missions. Perhaps, too, it's a reminder of the risk we all felt after the Eagle had landed – the possibility that it might be unable to lift off again and the astronauts would be stranded on the Moon. But it may also be that a photograph like this one is as close as we're able to come to looking directly back into the human past...
 There the [Apollo 11] lunar module sits, parked just where it landed 40 years ago, as if it still really were 40 years ago and all the time since merely imaginary.
 
-Science and engineering
 The Apollo program has been called the greatest technological achievement in human history. Apollo stimulated many areas of technology, leading to over 1,800 spinoff products as of 2015. The flight computer design used in both the Lunar and Command Modules was, along with the Polaris and Minuteman missile systems, the driving force behind early research into integrated circuits (IC). By 1963, Apollo was using 60 percent of the United States' production of ICs. The crucial difference between the requirements of Apollo and the missile programs was Apollo's much greater need for reliability. While the Navy and Air Force could work around reliability problems by deploying more missiles, the political and financial cost of failure of an Apollo mission was unacceptably high.
 
 The Earth over the lunar horizon, photographed by the Apollo 8 crew
@@ -896,7 +818,6 @@ The Moon landing data was recorded by a special Apollo TV camera which recorded 
 So I don't believe that the tapes exist today at all. It was a hard thing to accept. But there was just an overwhelming amount of evidence that led us to believe that they just don't exist anymore. And you have to accept reality.
 — Stan Lebar, lunar television camera designer, Westinghouse Electric Corporation
 With a budget of $230,000, the surviving original lunar broadcast data from Apollo 11 was compiled by Nafzger and assigned to Lowry Digital for restoration. The video was processed to remove random noise and camera shake without destroying historical legitimacy. The images were from tapes in Australia, the CBS News archive, and kinescope recordings made at Johnson Space Center. The restored video, remaining in black and white, contains conservative digital enhancements and did not include sound quality improvements.
-Depictions on film
 
 Numerous documentary films cover the Apollo program and the Space Race, including:
 Moonwalk One (1970)
@@ -915,8 +836,6 @@ The Apollo program, or certain missions, have been dramatized in Apollo 13 (1995
 Apollo Lunar Surface Experiments Package
 Exploration of the Moon
 List of man-made objects on the Moon
-List of megaprojects
-Lockheed Propulsion Company
 Moon landing conspiracy theories
 Soviet manned lunar programs
 Space policy of the United States
@@ -933,7 +852,6 @@ Preble, Christopher A. (2003). ""Who Ever Believed in the 'Missile Gap'?": John 
 
 Sidey 1963, pp. 117–118
 Beschloss 1997, p. 55
-87th Congress 1961
 Sidey 1963, p. 114
 Kennedy, John F. (April 20, 1961). "Memorandum for Vice President". The White House (Memorandum). Boston, MA: John F. Kennedy Presidential Library and Museum. Retrieved August 1, 2013.
 Launius, Roger D. (July 1994). "President John F. Kennedy Memo for Vice President, 20 April 1961" (PDF). Apollo: A Retrospective Analysis (PDF). Monographs in Aerospace History. Washington, D.C.: NASA. OCLC 31825096. Retrieved August 1, 2013. Key Apollo Source Documents.
@@ -1160,16 +1078,13 @@ Gagarin in Helsinki, 1961
 Юрий Гагарин
 
 Born	Yuri Alekseyevich Gagarin
-March 1934
 Klushino, Russian SFSR, Soviet Union
 Died	27 March 1968 (aged 34)
 Novosyolovo, Russian SFSR, Soviet Union
 
-Kremlin Wall Necropolis
 
 
 Rank	CCCP air-force Rank polkovnik infobox.svg Colonel (Polkovnik), Soviet Air Forces
-Time in space
 hour, 48 minutes
 Selection	Soviet Air Force Group 1
 Missions	Vostok 1
@@ -1178,35 +1093,19 @@ Yuri Alekseyevich Gagarin (Russian: Ю́рий Алексе́евич Гага́
 Gagarin became an international celebrity and was awarded many medals and titles, including Hero of the Soviet Union, the nation's highest honour. Vostok 1 marked his only spaceflight, but he served as backup crew to the Soyuz 1 mission (which ended in a fatal crash). Gagarin later became deputy training director of the Cosmonaut Training Centre outside Moscow, which was later named after him. Gagarin died in 1968 when the MiG-15 training jet he was piloting crashed. The Fédération Aéronautique Internationale awards the Yuri A. Gagarin Gold Medal in his honor.
 
 Early life and education
-Soviet Air Force
-Soviet space program
-Selection and training
-Vostok 1
 After the Soviet space program
 
 Cause of jet crash
-Personal life
-Legacy and tributes
-Legacy
-Tributes
 7.2.1	Statues
 7.2.2	50th anniversary
-Honours and awards
-See also
 
 
-Sources
-Further reading
-External links
 Early life and education
 Yuri Gagarin was born in the village of Klushino, near Gzhatsk (renamed Gagarin in 1968 after his death), on 9 March 1934. His parents worked on a collective farm: Alexey Ivanovich Gagarin as a carpenter and bricklayer, and Anna Timofeyevna Gagarina as a milkmaid.[note 2] Yuri was the third of four children: older brother Valentin, older sister Zoya, and younger brother Boris.
 Like millions of people in the Soviet Union, the Gagarin family suffered during Nazi occupation in World War II. Klushino was occupied in November 1941 during the German advance on Moscow, and an officer took over the Gagarin residence. The family was allowed to build a mud hut, approximately 3 by 3 metres (10 by 10 ft) inside, on the land behind their house, where they spent a year and nine months until the end of the occupation. His two older siblings were deported by the Germans to Poland for slave labour in 1943, and did not return until after the war in 1945. In 1946, the family moved to Gzhatsk, where Gagarin continued his secondary education.
 In 1950, Gagarin entered into an apprenticeship at age 16 as a foundryman at the Lyubertsy Steel Plant near Moscow, and also enrolled at a local "young workers" school for seventh grade evening classes. After graduating in 1951 from both the seventh grade and the vocational school with honours in moldmaking and foundry work, he was selected for further training at the Saratov Industrial Technical School, where he studied tractors. While in Saratov, Gagarin volunteered for weekend training as a Soviet air cadet at a local flying club, where he learned to fly — at first in a biplane and later in a Yak-18 trainer. He also earned extra money as a part-time dock laborer on the Volga River.
-Soviet Air Force
 Valentina Gagarina, Sima Eivazova and Yuri Gagarin in Bulgaria in 1966
 After graduating from the technical school in 1955, the Soviet Army drafted Gagarin. On a recommendation, Gagarin was sent to the First Chkalov Air Force Pilot's School in Orenburg, and soloed in a MiG-15 in 1957. After graduation, he was assigned to the Luostari airbase in Murmansk Oblast, close to the Norwegian border, where terrible weather made flying risky. He became a Lieutenant in the Soviet Air Forces on 5 November 1957; on 6 November 1959 he received the rank of Senior Lieutenant.
-Soviet space program
-Selection and training
 In 1960, after an extensive search and selection process, Gagarin was chosen with 19 other pilots for the Soviet space program. Gagarin was further selected for an elite training group known as the Sochi Six, from which the first cosmonauts of the Vostok programme would be chosen. Gagarin and other prospective candidates were subjected to experiments designed to test physical and psychological endurance; he also underwent training for the upcoming flight. Out of the twenty selected, the eventual choices for the first launch were Gagarin and Gherman Titov due to their performance during training sessions as well as their physical characteristics — space was limited in the small Vostok cockpit, and both men were rather short. Gagarin was 1.57 metres (5 ft 2 in) tall.
 In August 1960, when Gagarin was one of 20 possible candidates, a Soviet Air Force doctor evaluated his personality as follows:
 Modest; embarrasses when his humor gets a little too racy; high degree of intellectual development evident in Yuriy; fantastic memory; distinguishes himself from his colleagues by his sharp and far-ranging sense of attention to his surroundings; a well-developed imagination; quick reactions; persevering, prepares himself painstakingly for his activities and training exercises, handles celestial mechanics and mathematical formulae with ease as well as excels in higher mathematics; does not feel constrained when he has to defend his point of view if he considers himself right; appears that he understands life better than a lot of his friends.
@@ -1263,7 +1162,6 @@ In April 2018 a bust of Gagarin, erected on the street which bears his name in t
 The 50th anniversary of Gagarin's journey into space was marked in 2011 by tributes around the world. A film titled First Orbit was shot from the International Space Station, combining the original flight audio with footage of the route taken by Gagarin. The Russian, American, and Italian Expedition 27 crew aboard the ISS sent a special video message to wish the people of the world a "Happy Yuri's Night", wearing shirts with an image of Gagarin.
 Swiss-based German watchmaker Bernhard Lederer created a limited edition of 50 Gagarin Tourbillons to commemorate the 50th anniversary of Yuri Gagarin's flight.
 The launch of Soyuz TMA-21 on 4 April 2011 was devoted to the 50th anniversary of the first manned space mission.
-Honours and awards
 Graffiti of Gagarin (with Maradona and Castro), in Drvengrad, Serbia.
 Jubilee Medal "40 Years of the Armed Forces of the USSR" (USSR, 1958)
 Hero of the Soviet Union (14 April 1961)
@@ -1435,13 +1333,10 @@ Headquarters	Hawthorne, California, U.S.
 
 (CTO of Propulsion)
 
-Falcon launch vehicles
 
-ASDS landing platforms
 Services	Orbital rocket launch
 Owner	Elon Musk Trust
 (54% equity; 78% voting control)
-Number of employees
 Est. 7,000
 (November 2017)
 Website	www.spacex.com
@@ -1457,37 +1352,22 @@ In September 2016, CEO Elon Musk unveiled the mission architecture of the Interp
 
 
 
-Goals
-Achievements
-Setbacks
 Ownership, funding and valuation
 Spacecraft and flight hardware
-Rocket engines
-Falcon launch vehicles
-Dragon capsules
-Research and development
-Reusable launch system
 Interplanetary Transport System / BFR
-Other projects
 
 Headquarters and manufacturing facilities
 Development and test facility
-Launch facilities
 4.3.1	Cape Canaveral
 4.3.2	Vandenberg
 4.3.3	Kennedy Space Center
 4.3.4	Brownsville
-Satellite prototyping facility
-Launch contracts
-NASA contracts
 5.1.1	COTS
 5.1.2	Commercial cargo
 5.1.3	Commercial crew
 5.1.4	Defense contracts
 Launch market competition and pricing pressure
-See also
 
-External links
 
 
 SpaceX employees with the Dragon capsule at SpaceX HQ in Hawthorne, California, February 2015
@@ -1562,7 +1442,6 @@ Draco are hypergolic liquid-propellant rocket engines that utilize monomethyl hy
 
 Raptor is a new family of methane-fueled full flow staged combustion cycle engines to be used in its future Interplanetary Transport System. Development versions have been test fired.
 
-Falcon launch vehicles
 
 The Falcon 1 prototype at SpaceX's assembly facilities.
 Since 2010, SpaceX has flown all its missions on the Falcon 9, with one test flight of Falcon Heavy. They previously developed and flew the Falcon 1 pathfinder vehicle.
@@ -1592,14 +1471,12 @@ In addition to SpaceX's privately funded plans for an eventual Mars mission, NAS
 
 In September 2017, Elon Musk released first prototype images of their space suits to be used in future missions. The suit is in testing phase and it is designed to cope with 2 ATM pressure in vacuum.
 
-Research and development
 
 First test firing of a scale Raptor development engine in September 2016 in McGregor, Texas.
 SpaceX is actively pursuing several different research and development programs. Most notable are those intended to develop reusable launch vehicles, an interplanetary transport system and a global telecommunications network.
 
 SpaceX has on occasion developed new engineering development technologies to enable it to pursue its various goals. For example, at the 2015 GPU Technology Conference, SpaceX revealed their own computational fluid dynamics (CFD) software to improve the simulation capability of evaluating rocket engine combustion design.
 
-Reusable launch system
 
 Autonomous spaceport drone ship in position prior to Falcon 9 Flight 17 carrying CRS-6.
 SpaceX's reusable launcher program was publicly announced in 2011 and the design phase was completed in February 2012. The system returns the first stage of a Falcon 9 rocket to a predetermined landing site using only its own propulsion systems.
@@ -1659,13 +1536,11 @@ Falcon 9 Flight 20 landing on Landing Zone 1 in December 2015.
 
 Vandenberg Air Force Base Space Launch Complex 4 East (SLC-4E) is used for payloads to polar orbits. The Vandenberg site can launch both Falcon 9 and Falcon Heavy, but cannot launch to low inclination orbits. Post-launch landings will take place at the neighboring SLC-4W.
 
-Kennedy Space Center
 On April 14, 2014, provider SpaceX signed a 20-year lease for Launch Pad 39A. The pad was subsequently modified to support Falcon 9 and Falcon Heavy launches. SpaceX has launched 13 Falcon 9 missions from Launch Pad 39A and more recently the Falcon Heavy, on February 6, 2018. [null SpaceX] intends to launch the first crewed missions to the ISS from Launch Pad 39A in December 2018.
 
 
 In August 2014, SpaceX announced they would be building a commercial-only launch facility at Brownsville, Texas. The Federal Aviation Administration released a draft Environmental Impact Statement for the proposed Texas facility in April 2013, and "found that 'no impacts would occur' that would force the Federal Aviation Administration to deny SpaceX a permit for rocket operations," and issued the permit in July 2014. SpaceX started construction on the new launch facility in 2014 with production ramping up in the latter half of 2015, with the first launches from the facility no earlier than late 2018. Real estate packages at the location have been named by SpaceX with names based on the theme "Mars Crossing".
 
-Satellite prototyping facility
 In January 2015, SpaceX announced it would be entering the satellite production business and global satellite internet business. The satellite factory would be located in Seattle, Washington. In July 2016, SpaceX acquired an additional 740 square meters (8,000 sq ft) creative space in Irvine, California (Orange County) to focus on satellite communications.
 
 
@@ -1707,9 +1582,7 @@ Anticipating a slump in domestic military and spy launches, ULA stated that it w
 
 
 List of Falcon 9 and Falcon Heavy launches
-Colonization of Mars
 Human mission to Mars
-Interplanetary Transport System
 
 
 
@@ -1932,14 +1805,7 @@ In the 2010s, numerous American, European, and Chinese agencies were developing 
 Mars in fiction is a frequent target of exploration and settlement in books, graphic novels, and films.
 
 
-Travel to Mars
-Landing on Mars
 
-Logistical
-Physical
-Planetary protection
-Mission proposals
-20th century
 4.1.1	Wernher von Braun proposal (1947 through 1950s)
 4.1.2	U.S. proposals (1950s, 1960s, and 1970s)
 4.1.3	Soviet mission proposals (1956 through 1969)
@@ -1948,7 +1814,6 @@ Mission proposals
 4.1.6	Mars Direct (early 1990s)
 4.1.7	International Space University (1991)
 4.1.8	NASA Design reference missions (1990s)
-21st century
 4.2.1	NASA Design reference missions (2000+)
 4.2.2	MARPOST (2000–2005)
 4.2.3	ESA Aurora programme (2001+)
@@ -1977,16 +1842,9 @@ Mission proposals
 Current intentions by nations and space agencies
 Current intentions by private companies
 Technological innovations and hurdles
-Precursor missions
-Manned flyby
 Missions to Deimos or Phobos
 Mars sample return missions
-Crewed orbital missions
-See also
 
-Further reading
-External links
-Travel to Mars
 
 Three views of planet Mars, the "red planet"
 
@@ -2001,7 +1859,6 @@ In the Crocco grand tour, a crewed spacecraft would get a flyby of Mars and Venu
 
 Aerobraking at Mars was estimated in the 1980s to cut the mass of a Mars mission lifted off the Earth by half. As a result, Mars missions have designed interplanetary spacecraft and landers capable of aero-braking.
 
-Landing on Mars
 
 Insets depict observation and analysis to find a safe landing site
 When an expedition reaches the orbit of Mars, it may drop into orbit around Mars by either of two main options: using rockets to slow down, or aerocapture. The same is true for missions to the surface. The state of the atmosphere, the altitude, and the properties of the landing site must come into consideration for a surface landing. It may be necessary to avoid a scientifically interesting site in the interest of safe touchdown.
@@ -2108,7 +1965,6 @@ The NASA Mars Design Reference Missions consisted of a series of conceptual desi
 SERT (SSP)
 DPT/NEXT
 NEP Art. Gravity
-DRA 5
 MARPOST (2000–2005)
 The Mars Piloted Orbital Station (or MARPOST) is a Russian proposed manned orbital mission to Mars, using a nuclear reactor to run an electric rocket engine. Proposed in October 2000 by Yuri Karash from the Russian Academy of Cosmonautics as the next step for Russia in space along with the Russian participation in the International Space Station, a 30-volume draft project for MARPOST was confirmed as of 2005. Design for the ship was proposed to be ready in 2012, and the ship itself in 2021.
 
@@ -2195,7 +2051,6 @@ In November 2015, Administrator Bolden of NASA reaffirmed the goal of sending hu
 SpaceX Mars transportation infrastructure (2016–17)
 Since 2016, SpaceX publicly announced a comprehensive vision to begin the colonization of Mars, by proposing to develop a high-capacity transportation infrastructure.
 
-ITS launch vehicle
 In September 2016 at the International Astronautical Congress, Elon Musk announced the ITS launch vehicle design (informally discussed earlier as the Mars Colonial Transporter), that comprised a large reusable booster topped by a spaceship or a tanker for in-orbit refueling, as well as a propellant plant to be built on Mars, at a base referred to as Mars Base Alpha. The aspirational objective is to advance the technology and infrastructure such that the first humans to Mars could potentially depart as early as 2024.
 
 BFR (Big Falcon Rocket)
@@ -2215,7 +2070,6 @@ Mars Base Camp (MBC), an American spacecraft concept that proposes to send astro
 
 Deep Space Transport (2017)
 
-Deep Space Transport
 The Deep Space Transport (DST) is a spacecraft meant to be launched on top of NASA's SLS launch vehicle in 2027. It was announced by NASA in March 2017. Plans at present predict it to dock with the Deep Space Gateway (DSG) station, which would be in cis-lunar space after its construction from 2021 to 2026 as a manned lunar space station, the first of its kind, in 2027. Current plans show it to be sent with a crew of 4 to Mars in 2033. It would not, however, land, but merely remain in Martian orbit until there is a launch window for a return. The mission is expected to take about 2 years if all missions in the DSG and DST from 2021–2030 are successful. This mission would use only the SLS rocket for launches, with the Orion MPCV to be used as a spacecraft to transport the crew to and from the Earth and the DSG and DST.
 
 Current intentions by nations and space agencies
@@ -2279,7 +2133,6 @@ Sample return plans raise the concern, however remote, that an infectious agent 
 
 At the dawn of the 21st century, NASA crafted four potential pathways to Mars human missions. Of those four, three included a Mars sample return as a prerequisite to human landing, however one did not.
 
-Crewed orbital missions
 Landis and Lupisella proposed to explore Mars via telepresence from human astronauts in orbit.
 
 A similar idea, was the proposed "Human Exploration using Real-time Robotic Operations" (HERRO) mission.
@@ -2289,12 +2142,9 @@ Another proposed mission was the Russian Mars Piloted Orbital Station.
 
 
 Delta-v budget between Earth, Moon and Mars
-Exploration of Mars
 Health threat from cosmic rays
 
 
-Life on Mars
-Mars analog habitat
 Mars Design Reference Mission
 
 
@@ -2453,7 +2303,6 @@ a longer bibliography can be found in the bibliography of Portree's book, availa
 Retrieved from "https://en.wikipedia.org/w/index.php?title=Human_mission_to_Mars&oldid=839870278"
 This page was last edited on 6 May 2018, at 07:10.
 Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
-THE RED PLANET
 Mars is a small rocky body once thought to be very Earthlike. Like the other terrestrial planets—Mercury, Venus, and Earth—its surface has been changed by volcanism, impacts from other bodies, movements of its crust, and atmospheric effects such as dust storms. It has polar ice caps that grow and recede with the change of seasons; areas of layered soils near the Martian poles suggest that the planet's climate has changed more than once, perhaps caused by a regular change in the planet's orbit.
 
 Martian tectonism, the formation and change of a planet's crust, differs from Earth's. Where Earth tectonics involve sliding plates that grind against each other or spread apart in the seafloors, Martian tectonics seem to be vertical, with hot lava pushing upwards through the crust to the surface.

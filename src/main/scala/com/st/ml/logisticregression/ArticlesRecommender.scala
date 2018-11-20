@@ -1,5 +1,7 @@
 package com.st.ml.logisticregression
 
+import java.io.File
+
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.ml._
@@ -11,158 +13,116 @@ import org.apache.spark.sql.functions._
 
 object ArticlesRecommender {
 
+  val logger = Logger.getLogger(ArticlesRecommender.getClass)
+
+  val ResourcesPath = "src/main/resources/"
+  val TopicsPath = ResourcesPath + "topics/"
+  val ModelPath = "/Users/igor.dziuba/models/topic-model"
+
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.OFF)
-    val logger = Logger.getLogger(ArticlesRecommender.getClass)
 
     val conf = new SparkConf().setAppName("LanguageTutor").setMaster("local[2]")
-    val spark = SparkSession.builder().config(conf).getOrCreate()
-    val sc = spark.sparkContext
+    implicit val spark = SparkSession.builder().config(conf).getOrCreate()
     import spark.implicits._
 
-    val resourcesPath = "src/main/resources/"
-    val topicsPath = resourcesPath + "topics/"
+    val topicToPaths = new File(TopicsPath).listFiles()
+      .map(file => removeExtension(file.getName) -> file.getPath)
 
-    val topics = Seq("machine-learning", "space", "music", "finance")
-
-    val topicData = topics.map { topic =>
-      sc.textFile(topicsPath + s"$topic.txt")
+    val topicData = topicToPaths.map { case (topic, path) =>
+      spark.sparkContext.textFile(path)
         .toDF("text")
+        .filter(length($"text") > 50)
         .withColumn("label", lit(topic))
     }.reduce(_ union _)
-      //.filter(!col("text").rlike("^((?![a-zA-Z]).)*$"))
-      .orderBy(rand()).cache()
+      .orderBy(rand())
 
-    topicData.show(false)
+    topicData.show()
 
     val stringIndexer = new StringIndexer()
       .setInputCol("label")
       .setOutputCol("indexedLabel")
       .fit(topicData)
 
-    val indexed = stringIndexer.transform(topicData)
-
-    indexed.show()
-
-    val indexToString = new IndexToString()
-      .setInputCol("prediction")
-      .setOutputCol("predictionLabel")
-      .setLabels(stringIndexer.labels)
-
     val regexTokenizer = new RegexTokenizer()
+      .setMinTokenLength(3)
+      .setPattern("[\\d\\W]+")
       .setInputCol("text")
       .setOutputCol("words")
-      .setMinTokenLength(2)
-      .setPattern("[\\d\\W]+")
-
-    val words = regexTokenizer.transform(indexed).drop("text")
-    words.show()
 
     val stopWordsRemover = new StopWordsRemover()
       .setInputCol("words")
       .setOutputCol("filtered")
 
-    val filtered = stopWordsRemover.transform(words).drop("words").filter(size($"filtered") > 0)
-    filtered.show()
-
-    val hashingTF = new HashingTF()
+    val countVectorizer = new CountVectorizer()
       .setInputCol("filtered")
       .setOutputCol("rawFeatures")
-      .setNumFeatures(2048)
-
-    val hashed = hashingTF.transform(filtered)
-    hashed.show(false)
-
-    val countVectorizerTF = new CountVectorizer()
-      .setInputCol("filtered").setOutputCol("rawFeatures")
-
-    val featurizedModel = countVectorizerTF.fit(filtered)
-    val featurizedData = featurizedModel.transform(filtered)
 
     val idf = new IDF()
       .setInputCol("rawFeatures")
       .setOutputCol("features")
-      .setMinDocFreq(0)
 
     val logisticRegression = new LogisticRegression()
-      .setLabelCol("indexedLabel")
       .setFeaturesCol("features")
+      .setPredictionCol("prediction")
+      .setLabelCol("indexedLabel")
       .setMaxIter(10)
       .setRegParam(0.5)
+
+    val indexToString = new IndexToString()
+      .setLabels(stringIndexer.labels)
+      .setInputCol("prediction")
+      .setOutputCol("predictedLabel")
 
     val pipeline = new Pipeline()
       .setStages(Array(
         stringIndexer,
         regexTokenizer,
         stopWordsRemover,
-        countVectorizerTF,
+        countVectorizer,
         idf,
         logisticRegression,
         indexToString
       ))
 
     val Array(trainData, testData) = topicData.randomSplit(Array(0.8, 0.2))
+
     val topicModel = pipeline.fit(trainData)
 
     val trainPredictions = topicModel.transform(trainData)
     val testPredictions = topicModel.transform(testData)
 
     testPredictions
-      .select("text", "label", "predictionLabel", "probability")
-      .show()
+      .withColumn("text", substring($"text", 0, 30))
+      .select("text", "label", "predictedLabel", "prediction")
+      .show(false)
 
     val evaluator = new MulticlassClassificationEvaluator()
-      .setLabelCol("indexedLabel")
       .setPredictionCol("prediction")
       .setMetricName("accuracy")
+      .setLabelCol("indexedLabel")
 
     val trainAccuracy = evaluator.evaluate(trainPredictions)
     val testAccuracy = evaluator.evaluate(testPredictions)
 
-    logger.info("trainAccuracy = " + trainAccuracy)
-    logger.info("testAccuracy = " + testAccuracy)
-
-    val extractWords = udf((link: String) => {
-      link
-        .replace("/$", "")
-        .substring(link.lastIndexOf("/") + 1)
-        .split("[\\d\\W_]+")
-        .mkString(" ")
-    })
-
-    val userTranslations = spark.read.option("header","true").option("delimiter","|")
-      .csv(resourcesPath + "userTranslations.csv")
-      .withColumn("sourceBody", extractWords($"source"))
-      .withColumn("text", concat($"text", lit(" "), $"sourceBody"))
-      .cache
-
-    userTranslations.show(false)
-
-    val userTranslationsWithTopics = topicModel.transform(userTranslations)
+    logger.info("trainAccuracy: " + trainAccuracy)
+    logger.info("testAccuracy: " + testAccuracy)
 
     val newTranslationsData = Seq(
       ("reason", "The surprising reason why NASA hasn't sent humans to Mars yet", "http://www.businessinsider.com/why-nasa-has-not-sent-humans-to-mars-2018-2"),
       ("related", "Despite having a population of only 40 million compared with the UK’s 65 million people, California’s gross domestic product of $2.7tn has overtaken the UK’s $2.6tn.", "https://en.wikipedia.org/wiki/Economy_of_California")
-    )
+    ).toDF("word", "text", "source")
+      .withColumn("text", concat($"text", lit(" "), $"source"))
 
-    val newTranslations = spark
-      .createDataFrame(newTranslationsData)
-      .toDF("word", "text", "source")
-      .withColumn("text", concat($"text", $"source"))
+    val finalPredictions = topicModel.transform(newTranslationsData)
 
-    val newTranslationsWithTopics = topicModel.transform(newTranslations)
-
-    newTranslationsWithTopics.show(false)
-
-    userTranslationsWithTopics
-      .select("word", "text", "predictionLabel", "probability")
-      .filter($"word".isin(Seq("reason", "related"):_*))
+    finalPredictions
+      .select("word", "predictedLabel", "probability")
       .show(false)
 
-    val results = userTranslationsWithTopics.join(newTranslationsWithTopics, Seq("word", "predictionLabel"))
-    results.show(false)
-
-
   }
+
+  private def removeExtension(name: String) =
+    name.substring(0, name.lastIndexOf("."))
 
 }
