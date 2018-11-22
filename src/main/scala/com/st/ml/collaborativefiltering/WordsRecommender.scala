@@ -21,31 +21,33 @@ object WordsRecommender {
     val conf = new SparkConf().setAppName("LanguageTutor").setMaster("local[2]")
     conf.set("spark.sql.crossJoin.enabled", "true")
     implicit val spark = SparkSession.builder().config(conf).getOrCreate()
+    import org.apache.spark.sql.Encoders
     import spark.implicits._
 
-    val userWordData = spark.read.option("header", "true").csv(WordsPath + "user_word_count.csv")
-    val rawWordData = spark.read.option("header", "true").csv(WordsPath + "words.csv")
-    val wordAlias = spark.read.option("header", "true").csv(WordsPath + "word_alias.csv")
-    val badWords = spark.read.csv(WordsPath + "full-list-of-bad-words.csv").toDF("name")
-    val allEnglishWords = spark.read.textFile(WordsPath + "en-words-20k.txt").toDF("name")
+    val userWordData = spark.read
+      .schema(Encoders.product[(Int,Int,Int)].schema)
+      .option("header", "true")
+      .csv(WordsPath + "user_word_count.csv")
+      .toDF("user", "word", "count")
 
+    val rawWordData = spark.read
+      .option("header", "true")
+      .csv(WordsPath + "words.csv")
 
-    val wordData = rawWordData.join(badWords, Seq("name"), "leftanti")
+    val badWords = spark.read
+      .csv(WordsPath + "full-list-of-bad-words.csv")
+      .toDF("name")
+
+    val allEnglishWords = spark.read
+      .textFile(WordsPath + "en-words-20k.txt")
+      .toDF("name")
+
+    val wordData = rawWordData
+      .join(badWords, Seq("name"), "leftanti")
       .join(allEnglishWords, Seq("name"))
       .filter(col("name") rlike "\\b[^\\d\\W]{3,}+\\b")
 
     wordData.show(false)
-
-    val wordAliasMap = wordAlias.collect().map { line =>
-      (line.getString(0).toInt, line.getString(1).toInt)}.toMap
-
-    val bWordAlias = spark.sparkContext.broadcast(wordAliasMap)
-
-    val groupedWordData = userWordData.map { line =>
-      val (userID, wordID, count) = (line.getString(0).toInt, line.getString(1).toInt, line.getString(2).toInt)
-      val finalWordID = bWordAlias.value.getOrElse(wordID, wordID)
-      (userID, finalWordID, count)
-    }.toDF("user", "word", "count")
 
     val model = new ALS().
       setSeed(Random.nextLong()).
@@ -59,14 +61,16 @@ object WordsRecommender {
       setItemCol("word").
       setRatingCol("count").
       setPredictionCol("prediction").
-      fit(groupedWordData)
+      fit(userWordData)
 
-    groupedWordData.unpersist()
+    userWordData.unpersist()
 
     val userID = 8
-    val userData = groupedWordData.where(s"user == $userID")
+    val userData = userWordData.where(s"user == $userID")
 
-    userData.join(wordData, wordData("id") <=> groupedWordData("word"), "left").show()
+    userData
+      .join(wordData, wordData("id") <=> userWordData("word"), "left")
+      .show()
 
     val toRecommend = model.itemFactors.
       select($"id".as("word")).
