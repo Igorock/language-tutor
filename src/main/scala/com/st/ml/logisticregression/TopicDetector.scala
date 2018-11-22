@@ -11,9 +11,9 @@ import org.apache.spark.ml.feature._
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 
-object ArticlesRecommender {
+object TopicDetector {
 
-  val logger = Logger.getLogger(ArticlesRecommender.getClass)
+  val logger = Logger.getLogger(TopicDetector.getClass)
 
   val ResourcesPath = "src/main/resources/"
   val TopicsPath = ResourcesPath + "topics/"
