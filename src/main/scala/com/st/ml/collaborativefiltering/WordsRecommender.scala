@@ -5,6 +5,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.ml.recommendation.ALS
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
+import org.apache.spark.sql.types.IntegerType
 
 import scala.util.Random
 
@@ -24,7 +25,7 @@ object WordsRecommender {
     import org.apache.spark.sql.Encoders
     import spark.implicits._
 
-    val userWordData = spark.read
+    val rawUserWordData = spark.read
       .schema(Encoders.product[(Int,Int,Int)].schema)
       .option("header", "true")
       .csv(WordsPath + "user_word_count.csv")
@@ -42,12 +43,24 @@ object WordsRecommender {
       .textFile(WordsPath + "en-words-20k.txt")
       .toDF("name")
 
+    logger.info("Filtering word data...")
+
     val wordData = rawWordData
       .join(badWords, Seq("name"), "leftanti")
       .join(allEnglishWords, Seq("name"))
       .filter(col("name") rlike "\\b[^\\d\\W]{3,}+\\b")
 
     wordData.show(false)
+
+    logger.info("Filtering userWord data...")
+
+    val userWordData = rawUserWordData
+      .join(wordData, wordData("id") <=> rawUserWordData("word"))
+      .select("user", "word", "count")
+
+    userWordData.show(false)
+
+    logger.info("Building model...")
 
     val model = new ALS().
       setSeed(Random.nextLong()).
@@ -68,25 +81,29 @@ object WordsRecommender {
     val userID = 8
     val userData = userWordData.where(s"user == $userID")
 
-    userData
-      .join(wordData, wordData("id") <=> userWordData("word"), "left")
-      .show()
+    val toRecommend = userData.
+      withColumn("word", $"word".cast(IntegerType))
 
-    val toRecommend = model.itemFactors.
-      select($"id".as("word")).
-      withColumn("user", lit(userID))
+    toRecommend.show(false)
 
-    val topRecommendations = model.transform(toRecommend).
-      select("word", "prediction").
-      orderBy($"prediction".desc).
-      limit(20)
+    logger.info(s"Getting recommendations for user ID = $userID ...")
 
-    val recommendedWordIDs = topRecommendations.select("word").join(userData, Seq("word"), "leftanti").toDF("id")
+    val topRecommendations = model.recommendForUserSubset(toRecommend, 20)
+      .select(explode($"recommendations").alias("recommendation"))
+      .select("recommendation.*")
 
-    val finalTopRecommendations = wordData.join(recommendedWordIDs, "id")
+    topRecommendations.show(false)
+
+    val recommendedWordIDs = topRecommendations
+      .withColumn("id", $"word")
+
+    logger.info(s"Replacing word IDs with word text values...")
+
+    val finalTopRecommendations = wordData
+      .join(recommendedWordIDs, "id")
+      .select($"name".alias("recommended_word"))
 
     finalTopRecommendations.show(false)
-
 
   }
 
