@@ -39,10 +39,12 @@ object TopicDetector {
 
     topicData.show()
 
+    val Array(trainData, testData) = topicData.randomSplit(Array(0.8, 0.2))
+
     val stringIndexer = new StringIndexer()
       .setInputCol("label")
       .setOutputCol("indexedLabel")
-      .fit(topicData)
+      .fit(trainData)
 
     val regexTokenizer = new RegexTokenizer()
       .setMinTokenLength(3)
@@ -84,8 +86,6 @@ object TopicDetector {
         logisticRegression,
         indexToString
       ))
-
-    val Array(trainData, testData) = topicData.randomSplit(Array(0.8, 0.2))
 
     val topicModel = pipeline.fit(trainData)
 
